@@ -1,8 +1,12 @@
+# Author: khushboo kaushik
 from typing import Dict, Any
 
-# =============================================================================
-# DATA SCHEMAS & TYPE DEFINITIONS
-# =============================================================================
+# -----------------------------------------------------------------------------
+# SOURCE-OF-TRUTH SCHEMAS
+# -----------------------------------------------------------------------------
+
+# We use these to make sure the data we're ingesting actually looks like what 
+# we expect. If the types don't match, we catch it early in the Extract phase.
 
 COUPON_DATA_SCHEMA: Dict[str, str] = {
     'order_id': 'string',
