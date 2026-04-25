@@ -99,4 +99,4 @@ LOSS PREVENTION:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-*Developed with ❤️ by the Principal Data Engineering Team.*
+*Developed with ❤️ by the Khushboo kaushik*
